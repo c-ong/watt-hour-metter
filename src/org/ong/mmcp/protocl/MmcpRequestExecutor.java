@@ -18,6 +18,7 @@ import org.apache.http.protocol.HttpProcessor;
 
 // -----------------------------
 // TODO WE WANT TO BE REFERENCE
+//       Jun 01, 2014 09:01
 // -----------------------------
 
 public class MmcpRequestExecutor {
@@ -44,9 +45,10 @@ public class MmcpRequestExecutor {
     protected boolean canResponseHaveBody(final HttpRequest request,
                                           final HttpResponse response) {
 
-        if ("HEAD".equalsIgnoreCase(request.getRequestLine().getMethod())) {
+        if ( "HEAD".equalsIgnoreCase( request.getRequestLine().getMethod() ) ) {
             return false;
         }
+        
         int status = response.getStatusLine().getStatusCode(); 
         return status >= HttpStatus.SC_OK 
             && status != HttpStatus.SC_NO_CONTENT 

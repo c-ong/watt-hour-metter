@@ -2,9 +2,6 @@ package org.ong.mmcp.protocl;
 
 import java.io.IOException;
 
-import org.apache.http.HttpException;
-import org.apache.http.HttpRequest;
-import org.apache.http.protocol.HttpContext;
 import org.ong.mmcp.MmcpContext;
 import org.ong.mmcp.MmcpException;
 import org.ong.mmcp.Operation;

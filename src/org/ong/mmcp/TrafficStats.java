@@ -2,7 +2,7 @@ package org.ong.mmcp;
 
 public class TrafficStats {
 
-	//HttpTransportMetricsImpl->bytesTransferred
+	//MmcpTransportMetricsImpl->bytesTransferred
 	
     private long bytesTransferred = 0;
     

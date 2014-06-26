@@ -6,14 +6,14 @@ public class MmcpException extends Exception {
 	private static final long serialVersionUID = -1056235561788577364L;
 	
     /**
-     * Creates a new HttpException with a <tt>null</tt> detail message.
+     * Creates a new MmcpException with a <tt>null</tt> detail message.
      */
     public MmcpException() {
         super();
     }
 
     /**
-     * Creates a new HttpException with the specified detail message.
+     * Creates a new MmcpException with the specified detail message.
      *
      * @param message the exception detail message
      */
@@ -22,7 +22,7 @@ public class MmcpException extends Exception {
     }
 
     /**
-     * Creates a new HttpException with the specified detail message and cause.
+     * Creates a new MmcpException with the specified detail message and cause.
      * 
      * @param message the exception detail message
      * @param cause the <tt>Throwable</tt> that caused this exception, or <tt>null</tt>

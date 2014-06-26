@@ -1,6 +1,5 @@
 package org.ong.mmcp;
 
-import org.apache.http.protocol.BasicHttpProcessor;
 import org.ong.mmcp.Bus.ManageProxy;
 import org.ong.mmcp.io.BusTransmitter;
 import org.ong.mmcp.io.BusTransmitterAgent;

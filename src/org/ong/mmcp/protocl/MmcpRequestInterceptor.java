@@ -15,7 +15,7 @@ public interface MmcpRequestInterceptor {
      * @param operation   the operation to preprocess
      * @param context   the context for the operatoin
      *
-     * @throws HttpException    in case of a protocol or other problem
+     * @throws MmcpException    in case of a protocol or other problem
      */
     void process(Operation operation, MmcpContext context) 
         throws MmcpException;
